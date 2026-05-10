@@ -3,7 +3,7 @@
   <p><i>A collection of highly-optimized, battle-tested LaTeX resume templates for Tech Placements, Internships, and SDE roles.</i></p>
 </div>
 
-Welcome! This repository contains the raw LaTeX source code for the exact resume formats that help students clear the ATS (Applicant Tracking System). The data inside these templates is based on my actual profile, which helped me secure a software engineering internship at **SAP Labs**, maintain a 9.38 CGPA, and solve 500+ DSA questions.
+Welcome! This repository contains the raw LaTeX source code for the exact resume formats that help students clear the ATS (Applicant Tracking System). The data inside these templates is based on my actual profile, which helped me secure a software engineering internship at **SAP Labs**, maintain a 9.38 CGPA at NIT Kurukshetra, and solve 500+ DSA questions.
 
 ---
 
@@ -18,12 +18,12 @@ You can generate all of these templates instantly, auto-fill your details, and c
 
 ### 📁 The Templates Showcase
 
-#### 🏆 1. The SAP Labs Winner (Featured)
+#### 🏆 1. The Apex Resume (SAP Labs Format)
 This is the exact, modular layout I used to secure my internship at SAP Labs. It is heavily optimized for enterprise ATS scanners, ensuring zero parsing errors while keeping the human recruiter engaged.
-* **Instant Edit:** [Click here to Copy the Overleaf Project](https://www.overleaf.com/read/rwnhfpphbcfq#bbb9fa)
-* **Manual Files:** See the `/SAP-Labs-Format` folder.
+* **Instant Edit:** [Click here to Clone the Overleaf Project](https://www.overleaf.com/read/jnwsqjbgsxzc#525100)
+* **Manual Files:** See the `/apex_resume` folder.
 <p align="center">
-  <img src="enhanced-resume-sample.png" alt="SAP Labs Winner Template" width="800">
+  <img src="apex_preview_image.png" alt="Apex Resume Template" width="800">
 </p>
 <br>
 
