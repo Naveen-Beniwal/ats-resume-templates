@@ -20,7 +20,7 @@ You can generate all of these templates instantly, auto-fill your details, and c
 
 #### 🏆 1. The SAP Labs Winner (Featured)
 This is the exact, modular layout I used to secure my internship at SAP Labs. It is heavily optimized for enterprise ATS scanners, ensuring zero parsing errors while keeping the human recruiter engaged.
-* **Instant Edit:** [[Click here to Copy the Overleaf Project]]([https://www.overleaf.com/project/67fbca4d979b3179234d535b](https://www.overleaf.com/read/rwnhfpphbcfq#bbb9fa)) 
+* **Instant Edit:** [Click here to Copy the Overleaf Project](https://www.overleaf.com/read/rwnhfpphbcfq#bbb9fa)
 * **Manual Files:** See the `/SAP-Labs-Format` folder.
 <p align="center">
   <img src="enhanced-resume-sample.png" alt="SAP Labs Winner Template" width="800">
