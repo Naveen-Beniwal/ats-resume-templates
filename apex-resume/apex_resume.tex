@@ -1,0 +1,222 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{subheading}{SlateGrey}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Naveen Beniwal} \\ \vspace{8pt}
+    
+    \small 
+    \href{tel:+919999999999}{\raisebox{-0.1\height}\faPhone\ \underline{+91 999999999}} ~ $|$ ~
+    \href{mailto:youremail@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{yourmail@gmail.com}} ~ $|$ ~
+    \href{https://linkedin.com/in/naveenbeniwal}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/yourlinkedin}} ~ $|$ ~
+    \href{https://github.com/naveenbeniwal}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/naveenbeniwal}}
+    
+    \vspace{-8pt}
+\end{center}
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\begin{justify}
+\small{Highly motivated Computer Engineering B.Tech graduate with 2+ years of experience in full-stack development and AI integration. Proven ability to build and scale SaaS platforms using technologies like React, TypeScript, and MongoDB, demonstrated by the successful launch of CVInsight.}
+\end{justify}
+\vspace{-10pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming Languages}{: TypeScript, JavaScript (ES6+), Python, Java, C++, SQL, HTML, CSS} \\
+        \textbf{Frameworks \& Libraries}{: React.js, Redux, Tailwind CSS, Material UI, Framer Motion, GSAP, Vite, Next.js} \\
+        \textbf{Developer Tools}{: Git/GitHub, Postman, VS Code, npm, yarn, jsPDF, Chart.js, Autocannon, Jest, Cypress} \\
+        \textbf{Databases}{: MongoDB Atlas, MySQL, PostgreSQL, Appwrite} \\
+        \textbf{Cloud \& DevOps}{: Vercel, Render, AWS (Basic Understanding), Cloudinary, Docker}
+    }}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Innovation Cell, NIT Kurukshetra -- Kurukshetra, Haryana}{2025 – Present}
+      {Co-Head, Tech Team}{}
+      \resumeItemListStart
+        \resumeItem{Spearheaded technical workshops on GitHub, version control, and collaborative project development, empowering 50+ students with essential skills for open-source contributions.}
+        \resumeItem{Mentored junior developers in best practices for software engineering, fostering a culture of innovation and knowledge sharing within the team.}
+        \resumeItem{Collaborated with cross-functional teams to identify and implement technology solutions that enhanced the Innovation Cell's outreach and impact.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+          {\textbf{CVInsight – AI Career Intelligence Platform} | \emph{TypeScript, React, Express, MongoDB, Appwrite, Cloudinary}}{}
+          \resumeItemListStart
+        \resumeItem{Architected and deployed a SaaS platform providing AI-powered resume analysis, ATS scoring, and skill extraction, serving 2200+ users and generating Rs.10000+ revenue.}
+        \resumeItem{Engineered a fallback-ready multi-AI infrastructure to ensure high availability and reliability of AI services, mitigating potential disruptions.}
+        \resumeItem{Implemented robust security measures, including honeypots, rate limiting, and CAPTCHA, to successfully prevent a targeted bot attack and protect user data.}
+        \resumeItem{Developed a full-stack admin dashboard with real-time revenue insights, user analytics, and granular control over platform features, enabling data-driven decision-making.}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{Campus Placement Portal – Full-Stack Recruitment System} | \emph{React, Express, MongoDB, Tailwind CSS, Vercel}}{}
+          \resumeItemListStart
+        \resumeItem{Engineered and deployed a comprehensive placement portal for NIT Kurukshetra, facilitating recruitment for 1000+ students and 250+ companies.}
+        \resumeItem{Developed a secure multi-role authentication system with custom dashboards and permissions for students, administrators, and recruiters, ensuring data privacy and access control.}
+        \resumeItem{Implemented real-time analytics, PDF resume generation, and dynamic status pipelines to streamline the recruitment process and improve user experience.}
+        \resumeItem{Accelerated development by completing 60\% of core functionality within 5 days for an internal pilot deployment, enabling rapid iteration and feedback incorporation.}
+          \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {National Institute of Technology (NIT), Kurukshetra}{2023-2027}
+      {B.Tech, Computer Engineering in Computer Engineering | GPA: 9.3875}{}
+      
+
+    \resumeSubheading
+      {Gyan Jyoti Public School, Sirsa}{2023}
+      {12th CBSE Board in Science Stream | GPA: 9.3875}{}
+      
+
+    \resumeSubheading
+      {RDM Saraswati School, Uklana Mandi}{2021}
+      {10th CBSE Board in All Subjects | GPA: 9.3875}{}
+      
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+
+
+
+\end{document}
