@@ -3,7 +3,7 @@
   <p><i>A collection of highly-optimized, 1-page LaTeX resume formats engineered to beat the ATS.</i></p>
 </div>
 
-Welcome! While I secured my software engineering internship at **SAP Labs** through on-campus placements at NIT Kurukshetra, building CVInsight allowed me to analyze over 1,900 student resumes. I realized that off-campus applications require a completely different beast. Most talented students get auto-rejected because their resumes are completely unreadable to ATS bots.
+Welcome! While I secured my software engineering internship at **SAP Labs** through on-campus placements at NIT Kurukshetra, building CVInsight allowed me to analyze over 2,200 student resumes and myself applied to 100s of companies. I realized that off-campus applications require a completely different beast. Most talented students get auto-rejected because their resumes are completely unreadable to ATS bots.
 
 Using those insights, I engineered these highly optimized, **1-page** resume templates to perfectly balance ATS readability with human aesthetics.
 
@@ -26,9 +26,8 @@ Do not apply off-campus with messy, non-standard resumes. This is why talented s
 The image below shows the typical "Before" resume vs. the output from our platform. My startup, CVInsight, doesn't just format your resume; it uses AI to enhance your text, tailored to specific job descriptions, ensuring you get an elite ATS score.
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/Naveen-Beniwal/ats-resume-templates/main/image_6.png](https://github.com/Naveen-Beniwal/ats-resume-templates/blob/main/ResultFromCvisnight.png)" alt="Before vs After Resume Formatting" width="800">
+  <img src="https://raw.githubusercontent.com/Naveen-Beniwal/ats-resume-templates/main/ResultFromCvisnight.png" alt="Before vs After Resume Formatting" width="800">
 </p>
-
 ---
 
 ### 📁 Want More Designs? (No LaTeX Required)
