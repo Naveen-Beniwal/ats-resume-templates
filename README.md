@@ -8,7 +8,7 @@
   <p><i>A collection of highly-optimized, 1-page LaTeX resume formats engineered for ATS readability.</i></p>
 </div>
 
-As a fellow student navigating the placement grind, I noticed a recurring problem: many strong candidates were getting auto-rejected simply because their resumes couldn't be parsed properly by Applicant Tracking Systems (ATS). 
+As a fellow student navigating the placement grind, I noticed a recurring problem: many deserving candidates were getting auto-rejected simply because their resumes couldn't be parsed properly by Applicant Tracking Systems (ATS). 
 
 After diving deep into how the recruitment process actually works from the inside, I engineered these templates to solve that problem. They are built to perfectly balance strict ATS readability with the clean, modern aesthetic that human recruiters actually want to see.
 
