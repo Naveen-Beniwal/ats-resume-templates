@@ -26,7 +26,7 @@ Do not apply off-campus with messy, non-standard resumes. This is why talented s
 The image below shows the typical "Before" resume vs. the output from our platform. My startup, CVInsight, doesn't just format your resume; it uses AI to enhance your text, tailored to specific job descriptions, ensuring you get an elite ATS score.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Naveen-Beniwal/ats-resume-templates/main/image_6.png" alt="Before vs After Resume Formatting" width="800">
+  <img src="[https://raw.githubusercontent.com/Naveen-Beniwal/ats-resume-templates/main/image_6.png](https://github.com/Naveen-Beniwal/ats-resume-templates/blob/main/ResultFromCvisnight.png)" alt="Before vs After Resume Formatting" width="800">
 </p>
 
 ---
