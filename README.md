@@ -19,9 +19,9 @@ You can generate all of these templates instantly, auto-fill your details, and c
 ### 📁 The Templates Showcase
 
 #### 🏆 1. The Apex Resume (SAP Labs Format)
-This is the exact, modular layout I used to secure my internship at SAP Labs. It is heavily optimized for enterprise ATS scanners, ensuring zero parsing errors while keeping the human recruiter engaged.
+This is the exact layout I used to secure my internship at SAP Labs. It is heavily optimized for enterprise ATS scanners, ensuring zero parsing errors while keeping the human recruiter engaged.
 * **Instant Edit:** [Click here to Clone the Overleaf Project](https://www.overleaf.com/read/jnwsqjbgsxzc#525100)
-* **Manual Files:** See the `/apex_resume` folder.
+* **Manual File:** See the `/apex_resume` folder.
 <p align="center">
   <img src="apex_preview_image.png" alt="Apex Resume Template" width="800">
 </p>
