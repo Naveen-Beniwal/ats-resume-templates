@@ -14,6 +14,9 @@ This is the flagship open-source template of the repository. After navigating th
 
 **Option 1: The Instant Overleaf Clone (Easiest Manual Way)**
 Click the link below to open a Read-Only version of this project in Overleaf. Click `Menu` -> `Copy Project` to save it to your own account and start editing immediately.
+
+⭐ **Before you clone: If this template helps you with your placement prep, please drop a Star on the main repository to keep it visible for other students!** ⭐
+
 👉 **[Clone in Overleaf](https://www.overleaf.com/read/jnwsqjbgsxzc#525100)**
 
 **Option 2: Download the File**
